@@ -1,4 +1,6 @@
 # fuxploider
+<p>Örnek kullanımı aşağıdaki gibi ancak çok güvenilir bir tool değil. Genellikle yanlış sonuçar veriyor.</p>
+<p>python3 fuxploider.py --url http://192.168.171.130/dvwa/vulnerabilities/upload/# --cookies "security=high&PHPSESSID=18bcebd37395bfc834b2eeda3c59c82d" --not-regex "Your image was not uploaded." -m --input-name "uploaded"   -vvv</p>
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6%20%2B-green.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv3-red.svg)](https://raw.githubusercontent.com/almandin/fuxploider/master/LICENSE.md)
 
